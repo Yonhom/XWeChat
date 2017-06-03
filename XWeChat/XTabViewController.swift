@@ -42,9 +42,14 @@ class XTabViewController: UITabBarController {
             controller.tabBarItem.image = normalTabImgs[index]?.withRenderingMode(.alwaysOriginal)
             controller.tabBarItem.selectedImage = selectedTabImgs[index]?.withRenderingMode(.alwaysOriginal)
             
+            // controller's title for the navigation controller it will be in to show 
+            controller.title = titles[index]
+            
+            // wrap the content controller with a navigation controller
+            let naviController = UINavigationController(rootViewController: controller)
             
             // add the controller in the tab bar controller
-            addChildViewController(controller)
+            addChildViewController(naviController)
             
         }
         
