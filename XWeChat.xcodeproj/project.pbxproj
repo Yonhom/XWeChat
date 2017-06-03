@@ -25,6 +25,9 @@
 		524A30191EE2FD4400384859 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A30171EE2FD4400384859 /* DiscoverViewController.xib */; };
 		524A301C1EE2FD5300384859 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A301A1EE2FD5300384859 /* MeViewController.swift */; };
 		524A301D1EE2FD5300384859 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A301B1EE2FD5300384859 /* MeViewController.xib */; };
+		524A30201EE3154700384859 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A301F1EE3154700384859 /* MessageModel.swift */; };
+		524A30251EE3478300384859 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A30241EE3478300384859 /* MessageCell.swift */; };
+		524A30271EE35AAE00384859 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A30261EE35AAE00384859 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		524A30171EE2FD4400384859 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
 		524A301A1EE2FD5300384859 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		524A301B1EE2FD5300384859 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		524A301F1EE3154700384859 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		524A30241EE3478300384859 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		524A30261EE35AAE00384859 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,8 @@
 		524A30091EE2FC6300384859 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				524A30231EE3474B00384859 /* View */,
+				524A301E1EE3151C00384859 /* Model */,
 				524A300E1EE2FD1A00384859 /* MessageViewController.swift */,
 				524A300F1EE2FD1A00384859 /* MessageViewController.xib */,
 			);
@@ -204,6 +212,23 @@
 				524A301B1EE2FD5300384859 /* MeViewController.xib */,
 			);
 			name = Me;
+			sourceTree = "<group>";
+		};
+		524A301E1EE3151C00384859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524A301F1EE3154700384859 /* MessageModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		524A30231EE3474B00384859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524A30241EE3478300384859 /* MessageCell.swift */,
+				524A30261EE35AAE00384859 /* MessageCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +345,7 @@
 				524A30151EE2FD3100384859 /* ContactsViewController.xib in Resources */,
 				524A30111EE2FD1A00384859 /* MessageViewController.xib in Resources */,
 				5204F5A01EE2F769007E1D6A /* Assets.xcassets in Resources */,
+				524A30271EE35AAE00384859 /* MessageCell.xib in Resources */,
 				5204F5C71EE2F7F8007E1D6A /* Media.xcassets in Resources */,
 				524A30191EE2FD4400384859 /* DiscoverViewController.xib in Resources */,
 				524A301D1EE2FD5300384859 /* MeViewController.xib in Resources */,
@@ -355,6 +381,8 @@
 				5204F5961EE2F769007E1D6A /* AppDelegate.swift in Sources */,
 				5204F59E1EE2F769007E1D6A /* XWeChat.xcdatamodeld in Sources */,
 				524A30101EE2FD1A00384859 /* MessageViewController.swift in Sources */,
+				524A30251EE3478300384859 /* MessageCell.swift in Sources */,
+				524A30201EE3154700384859 /* MessageModel.swift in Sources */,
 				524A30141EE2FD3100384859 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
