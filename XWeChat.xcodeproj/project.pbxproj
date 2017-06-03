@@ -15,6 +15,16 @@
 		5204F5A31EE2F769007E1D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204F5A11EE2F769007E1D6A /* LaunchScreen.storyboard */; };
 		5204F5AE1EE2F76A007E1D6A /* XWeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204F5AD1EE2F76A007E1D6A /* XWeChatTests.swift */; };
 		5204F5B91EE2F76A007E1D6A /* XWeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204F5B81EE2F76A007E1D6A /* XWeChatUITests.swift */; };
+		5204F5C71EE2F7F8007E1D6A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5204F5C61EE2F7F8007E1D6A /* Media.xcassets */; };
+		524A30081EE2F9D800384859 /* XTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A30071EE2F9D800384859 /* XTabViewController.swift */; };
+		524A30101EE2FD1A00384859 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A300E1EE2FD1A00384859 /* MessageViewController.swift */; };
+		524A30111EE2FD1A00384859 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A300F1EE2FD1A00384859 /* MessageViewController.xib */; };
+		524A30141EE2FD3100384859 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A30121EE2FD3100384859 /* ContactsViewController.swift */; };
+		524A30151EE2FD3100384859 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A30131EE2FD3100384859 /* ContactsViewController.xib */; };
+		524A30181EE2FD4400384859 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A30161EE2FD4400384859 /* DiscoverViewController.swift */; };
+		524A30191EE2FD4400384859 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A30171EE2FD4400384859 /* DiscoverViewController.xib */; };
+		524A301C1EE2FD5300384859 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A301A1EE2FD5300384859 /* MeViewController.swift */; };
+		524A301D1EE2FD5300384859 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A301B1EE2FD5300384859 /* MeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		5204F5B41EE2F76A007E1D6A /* XWeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204F5B81EE2F76A007E1D6A /* XWeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWeChatUITests.swift; sourceTree = "<group>"; };
 		5204F5BA1EE2F76A007E1D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5204F5C61EE2F7F8007E1D6A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		524A30071EE2F9D800384859 /* XTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTabViewController.swift; sourceTree = "<group>"; };
+		524A300E1EE2FD1A00384859 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		524A300F1EE2FD1A00384859 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		524A30121EE2FD3100384859 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		524A30131EE2FD3100384859 /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		524A30161EE2FD4400384859 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		524A30171EE2FD4400384859 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		524A301A1EE2FD5300384859 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		524A301B1EE2FD5300384859 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,15 @@
 		5204F5941EE2F769007E1D6A /* XWeChat */ = {
 			isa = PBXGroup;
 			children = (
+				524A300D1EE2FCD300384859 /* Me */,
+				524A300C1EE2FCC500384859 /* Discover */,
+				524A300B1EE2FCBD00384859 /* Contacts */,
+				524A30091EE2FC6300384859 /* Message */,
+				524A30061EE2F9B300384859 /* Tab */,
+				5204F5C81EE2F805007E1D6A /* Resources */,
 				5204F5951EE2F769007E1D6A /* AppDelegate.swift */,
 				5204F5971EE2F769007E1D6A /* ViewController.swift */,
 				5204F5991EE2F769007E1D6A /* Main.storyboard */,
-				5204F59F1EE2F769007E1D6A /* Assets.xcassets */,
-				5204F5A11EE2F769007E1D6A /* LaunchScreen.storyboard */,
-				5204F5A41EE2F769007E1D6A /* Info.plist */,
-				5204F59C1EE2F769007E1D6A /* XWeChat.xcdatamodeld */,
 			);
 			path = XWeChat;
 			sourceTree = "<group>";
@@ -126,6 +148,62 @@
 				5204F5BA1EE2F76A007E1D6A /* Info.plist */,
 			);
 			path = XWeChatUITests;
+			sourceTree = "<group>";
+		};
+		5204F5C81EE2F805007E1D6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5204F59F1EE2F769007E1D6A /* Assets.xcassets */,
+				5204F5C61EE2F7F8007E1D6A /* Media.xcassets */,
+				5204F5A11EE2F769007E1D6A /* LaunchScreen.storyboard */,
+				5204F5A41EE2F769007E1D6A /* Info.plist */,
+				5204F59C1EE2F769007E1D6A /* XWeChat.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		524A30061EE2F9B300384859 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				524A30071EE2F9D800384859 /* XTabViewController.swift */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
+		524A30091EE2FC6300384859 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				524A300E1EE2FD1A00384859 /* MessageViewController.swift */,
+				524A300F1EE2FD1A00384859 /* MessageViewController.xib */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		524A300B1EE2FCBD00384859 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				524A30121EE2FD3100384859 /* ContactsViewController.swift */,
+				524A30131EE2FD3100384859 /* ContactsViewController.xib */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		524A300C1EE2FCC500384859 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				524A30161EE2FD4400384859 /* DiscoverViewController.swift */,
+				524A30171EE2FD4400384859 /* DiscoverViewController.xib */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		524A300D1EE2FCD300384859 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				524A301A1EE2FD5300384859 /* MeViewController.swift */,
+				524A301B1EE2FD5300384859 /* MeViewController.xib */,
+			);
+			name = Me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5204F5A31EE2F769007E1D6A /* LaunchScreen.storyboard in Resources */,
+				524A30151EE2FD3100384859 /* ContactsViewController.xib in Resources */,
+				524A30111EE2FD1A00384859 /* MessageViewController.xib in Resources */,
 				5204F5A01EE2F769007E1D6A /* Assets.xcassets in Resources */,
+				5204F5C71EE2F7F8007E1D6A /* Media.xcassets in Resources */,
+				524A30191EE2FD4400384859 /* DiscoverViewController.xib in Resources */,
+				524A301D1EE2FD5300384859 /* MeViewController.xib in Resources */,
 				5204F59B1EE2F769007E1D6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +349,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5204F5981EE2F769007E1D6A /* ViewController.swift in Sources */,
+				524A30081EE2F9D800384859 /* XTabViewController.swift in Sources */,
+				524A301C1EE2FD5300384859 /* MeViewController.swift in Sources */,
+				524A30181EE2FD4400384859 /* DiscoverViewController.swift in Sources */,
 				5204F5961EE2F769007E1D6A /* AppDelegate.swift in Sources */,
 				5204F59E1EE2F769007E1D6A /* XWeChat.xcdatamodeld in Sources */,
+				524A30101EE2FD1A00384859 /* MessageViewController.swift in Sources */,
+				524A30141EE2FD3100384859 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +608,7 @@
 				5204F5BF1EE2F76A007E1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5204F5C01EE2F76A007E1D6A /* Build configuration list for PBXNativeTarget "XWeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +617,7 @@
 				5204F5C21EE2F76A007E1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5204F5C31EE2F76A007E1D6A /* Build configuration list for PBXNativeTarget "XWeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +626,7 @@
 				5204F5C51EE2F76A007E1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
